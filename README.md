@@ -92,7 +92,7 @@ LibraFlow dirancang agar:
 ![Katalog Buku](screenshots/04-ganti_katalog-buku.png)
 
 ### 👥 Anggota
-![Manajemen Anggota](screenshots/05-manajemen-anggota.png)
+![Manajemen Anggota](screenshots/05-ganti_anggota.png)
 
 ### 🔄 Peminjaman / Sirkulasi
 ![Riwayat Peminjaman](screenshots/06-ganti_peminjaman.png)
