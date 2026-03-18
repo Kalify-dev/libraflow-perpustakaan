@@ -125,7 +125,6 @@ Jika Anda tertarik untuk membeli kode sumber sistem ini (untuk dipakai di instan
 
 * 📱 **WhatsApp:** [+62 851-6942-4124](https://wa.me/6285169424124)
 * 📧 **Email:** [kalpin347@gmail.com](mailto:kalpin347@gmail.com)
-* 🛒 **Store:** *(Bisa ditambahkan link e-commerce/toko di sini jika ada)*
 
 **Apa yang akan Anda dapatkan dari pembelian?**
 1. Source Code Full Version (Laravel 12).
