@@ -1,49 +1,63 @@
 <div align="center">
 
-<h1>📚 LibraFlow — Sistem Manajemen Perpustakaan Modern</h1>
+<h1>📚 LibraFlow — Ubah Perpustakaan Manual Jadi Sistem Digital dalam 1 Hari</h1>
 
-<p><em>Solusi digital lengkap untuk perpustakaan sekolah, kampus, dan institusi — dibangun dengan Laravel 12</em></p>
+<p><em>Solusi lengkap untuk mengelola buku, anggota, dan peminjaman secara otomatis — tanpa ribet</em></p>
 
 ![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Railway-blueviolet?style=for-the-badge)](https://web-production-d6a51.up.railway.app/)
+![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)
 
 <br/>
 
-> ⚠️ **PEMBERITAHUAN:** Repositori ini **HANYA BERISI PREVIEW & SCREENSHOT** sebagai display portofolio dan demo. Source code **tidak dibagikan ke publik** karena proyek ini dikomersilasi (dijual).
-> 
-> **🎯 Dirancang untuk sekolah, kampus, dan perpustakaan umum yang ingin go digital dengan tampilan modern dan fitur lengkap.**
+> ❌ Masih catat peminjaman di buku tulis?  
+> ❌ Sering kehilangan data atau telat tracking?  
+>
+> **LibraFlow bantu otomatisasi semuanya — cepat, rapi, dan profesional.**
 
 <br/>
 
-### 🌐 [👉 Coba Demo Live Sekarang](https://web-production-d6a51.up.railway.app/)
+### 🚀 Coba Demo Sekarang (Tanpa Install)
+
+👉 [**Akses Link Live Demo**](https://web-production-d6a51.up.railway.app/)
 
 | Role | Email | Password |
 |------|-------|----------|
-| 🧑‍💼 **Guest / Demo** | demo@perpus.com | percobaan123 |
+| 🧑‍💼 Demo | demo@perpus.com | percobaan123 |
+
+> ⚡ Langsung pakai di browser — tidak perlu setup dan register riweh.
 
 </div>
 
 ---
 
-## 🖼️ Screenshot
+## 🏆 Kenapa Pilih LibraFlow?
+
+- ⚡ **Siap pakai** — tidak perlu *develop* pusing-pusing dari nol  
+- 🎯 **Tepat Sasaran** — dirancang khusus untuk operasional sekolah & kampus  
+- 📊 **Sentralistik** — semua data terpusat dan mudah dipantau  
+- 🔒 **Aman (RBAC)** — sistem dibatasi dengan role & akses terkontrol  
+- 💡 **Scalable** — bebas dikembangkan sesuai kebutuhan instansi Anda  
+
+---
+
+## 🖼️ Tampilan Sistem
 
 ### 🌐 Landing Page
 ![Landing Page](screenshots/01-landing-page.jpeg)
 
-### 🔐 Halaman Login
+### 🔐 Login
 ![Login Page](screenshots/02-login-page.png)
 
 ### 📊 Dashboard
 ![Dashboard](screenshots/03-dashboard.png)
 
-### 📚 Katalog Koleksi Digital
-![Katalog Buku Digital](screenshots/04-katalog-buku.png)
+### 📚 Katalog Buku Digital
+![Katalog Buku](screenshots/04-katalog-buku.png)
 
-### 👥 Manajemen Anggota
+### 👥 Anggota
 ![Manajemen Anggota](screenshots/05-manajemen-anggota.png)
 
 ### 🔄 Peminjaman / Sirkulasi
@@ -54,96 +68,104 @@
 
 ---
 
-## ✨ Fitur Unggulan
+## ✨ Fitur Utama Tersedia
 
-### 📖 Manajemen Koleksi Buku
-- ✅ CRUD buku dengan **cover, barcode, dan QR code** otomatis
-- ✅ Manajemen **eksemplar buku** (book copies) per item
-- ✅ Kategorisasi buku, penulis, dan penerbit
-- ✅ **Import buku massal** via file Excel
-- ✅ Tandai buku sebagai **featured / unggulan**
-- ✅ Dukungan **buku digital (PDF)** yang bisa dibaca langsung di browser
-- ✅ **Audit stok** buku secara berkala
+### 📚 Manajemen Buku
+- ✅ CRUD buku + Cover, QR code, dan Barcode otomatis
+- ✅ Import Eksemplar massal ribuan data via Excel (Cepat!)
+- ✅ Modul Buku Digital bawaan (PDF Viewer online)
+- ✅ Audit Stok Opname berkala
 
-### 👥 Manajemen Anggota
-- ✅ Pendaftaran anggota dengan **foto profil** dan data institusi (sekolah/kelas/NIS)
-- ✅ **Sistem poin & badge** (gamifikasi) untuk mendorong minat baca
-- ✅ Riwayat peminjaman per anggota
-- ✅ Export data anggota ke Excel/PDF
+### 👥 Anggota
+- ✅ Pendaftaran Siswa & Guru + Upload Foto Profil
+- ✅ Sistem Poin & Badge Keaktifan (Gamifikasi Membaca)
+- ✅ Catatan Riwayat Aktivitas & Pelanggaran
 
-### 📋 Peminjaman & Pengembalian
-- ✅ Alur peminjaman yang mudah dan cepat
-- ✅ **Sistem reservasi** buku (anggota bisa pesan buku sebelum tersedia)
-- ✅ **Notifikasi otomatis** untuk buku yang siap diambil / hampir jatuh tempo
-- ✅ Tracking status: *Dipinjam → Dikembalikan → Terlambat*
+### 🔄 Peminjaman
+- ✅ Alur Sirkulasi instan & otomatis 
+- ✅ Sistem *Booking* / Reservasi buku idaman
+- ✅ Tracking status jatuh tempo *real-time*
 
-### 💰 Sistem Denda
-- ✅ Kalkulasi denda otomatis berdasarkan keterlambatan
-- ✅ **Pengaturan denda fleksibel** (tarif per hari, batas maksimum, dll.)
-- ✅ Riwayat pembayaran denda
+### 💰 Denda
+- ✅ Kalkulasi kalkulator denda otomatis terpusat
+- ✅ Tarif dan denda per hari bisa Anda rubah sebebasnya
+- ✅ Histori tagihan dan lunas
 
-### 📊 Laporan & Analitik
-- ✅ Dashboard dengan statistik real-time
-- ✅ Laporan peminjaman, pengembalian, dan denda
-- ✅ **Export laporan** ke PDF & Excel
-- ✅ Grafik tren peminjaman
+### 📊 Laporan
+- ✅ Dashboard Statistik super gokil dan interaktif
+- ✅ Unduh laporan PDF / Excel untuk kepala sekolah
+- ✅ Grafik Tren membaca bulanan
 
-### ⚙️ Pengaturan Sistem
-- ✅ **Pengaturan global**: nama perpustakaan, logo, kontak
-- ✅ Manajemen staff dengan **role-based access** (Admin, Staff, Guest, Siswa)
-- ✅ **Pengumuman** untuk anggota
-- ✅ **Activity log** setiap aksi yang dilakukan pengguna
-- ✅ **Sistem request buku** dari anggota ke pustakawan
-
-### 🌐 Halaman Publik
-- ✅ **Landing page** menarik dengan pencarian buku
-- ✅ **Katalog online** yang bisa diakses tanpa login
-- ✅ Kartu anggota digital dengan **QR Code**
-
-### 🔒 Keamanan & Akses
-- ✅ Sistem **RBAC** (Role Based Access Control) dengan Policy Laravel
-- ✅ Role: **Admin**, **Staff**, **Guest**, **Siswa**
-- ✅ Proteksi route dan validasi di setiap endpoint
+### ⚙️ Sistem
+- ✅ Multi Role: Admin, Pustakawan, Guest, Anggota Siswa
+- ✅ Log Aktivitas setiap detik 
+- ✅ Request Pembelian Buku oleh Anggota
 
 ---
 
-## 🛠️ Tech Stack
+## 💼 Sangat Cocok Untuk:
 
-| Layer | Teknologi |
-|-------|-----------|
-| **Backend** | Laravel 12, PHP 8.2+ |
-| **Frontend** | Blade Templates, Tailwind CSS, Vite |
-| **Database** | MySQL / SQLite |
-| **PDF / Barcode** | DomPDF, PHP Barcode Generator, Simple QRCode |
-| **Excel** | Maatwebsite Excel (Import/Export) |
-| **Image Processing** | Intervention Image |
-| **Containerization** | Docker + Docker Compose |
-| **Queue** | Laravel Queue (Database Driver) |
-| **Caching** | Laravel Cache (File/Redis) |
+- 🏫 **Tingkat Sekolah (SD, SMP, SMA/SMK)**
+- 🎓 **Perguruan Tinggi / Universitas**
+- 🏡 **Perpustakaan Desa & Komunitas Taman Baca**
+- 🏢 **Instansi Kantor & Swasta**
 
 ---
 
-## 🛒 Cara Mendapatkan Source Code
+## 💰 Ingin Memiliki Sistem Ini? (Tersedia Jasa Penuh)
 
-Karena proyek ini adalah produk premium, **source code lengkap (Backend + Frontend + Database)** tidak di-publish di GitHub public. 
+Software ini adalah produk premium Proprietary. Bagi Anda yang tidak ingin pusing coding, staf kami menyediakan:
+- ✅ **Source Code Full System** (Khusus untuk Developer)
+- ✅ Instalasi & *Setup* server hingga *Online* (Terima Beres)
+- ✅ Modifikasi Custom Fitur menyesuaikan *Standard Operational Procedure* instansi Anda
+- ✅ Pendampingan dan *Support Maintenance* bulanan
 
-Jika Anda tertarik untuk membeli kode sumber sistem ini (untuk dipakai di instansi Anda, studi kasus kampus, maupun dikembangkan lagi), silakan hubungi pengembang melalui:
+📩 **Hubungi Segera (Fast Response):**
+- 📱 **WhatsApp:** [+62 851-6942-4124](https://wa.me/6285169424124)
+- 📧 **Email:** [kalpin347@gmail.com](mailto:kalpin347@gmail.com)
 
-* 📱 **WhatsApp:** [+62 851-6942-4124](https://wa.me/6285169424124)
-* 📧 **Email:** [kalpin347@gmail.com](mailto:kalpin347@gmail.com)
+> 🚀 **Kami siap bantu meroketkan digitalisasi perpustakaan di sekolah/instansi Anda!**
 
-**Apa yang akan Anda dapatkan dari pembelian?**
-1. Source Code Full Version (Laravel 12).
-2. Panduan instalasi dan deployment ke Server/Hosting.
-3. Hak pemakaian untuk instansi atau pengembangan lanjutan.
-4. *Support* instalasi pertama kali.
+---
+
+## ⚙️ Instalasi (Khusus Developer / Programmer)
+
+**Anda programmer yang membeli Source Code ini? Ini buktinya betapa manjanya setup proyek ini di lokal!** 
+
+Tak perlu lagi pusing mikirin konfigurasi *database*, migrasi manual, sampai instal *keys*. Cukup jalankan **1 baris perintah ajaib**, kamu bisa langsung *coding* sambil ngopi. ☕
+
+### ⚡ Mode Kilat (One-Click Setup)
+
+```bash
+composer run setup
+```
+*✨ Booom! Perintah sakti di atas bakal meminjamkan tangan ghaib untuk:*
+1. Mengangkut semua *dependency* inti (PHP Vendor & Node.js).
+2. Meracik resep rahasia di file `.env`.
+3. Menjalankan migrasi & *seeding* otomatis (Ratusan buku, kategori, & akun admin langsung terisi!).
+4. Melakukan kompilasi *asset* UI (TailwindCSS) secara paripurna.
+5. Mendirikan *localhost web-server*!
+
+*Hanya butuh sekedipan mata, dan Anda bisa sapa hasilnya di browser!*
+
+---
+
+### 🐳 Mode Docker (Container Ready)
+
+Kamu tipe yang malas mengotori OS fisik dengan MySQL dan servis PHP menumpuk? Docker *ready* sudah menunggumu:
+
+```bash
+docker compose up -d
+docker exec -it perpustakaan-app php artisan migrate --seed
+```
+*Tidur nyenyak! Aplikasi super ngebut langsung on di `http://localhost:8000` tanpa bentrok port lokal.*
 
 ---
 
 <div align="center">
 
-**Dibuat dengan ❤️ menggunakan Laravel 12**
+**Dibuat dengan ❤️ & Semangat Kopi menggunakan Laravel 12**
 
-⭐ Jika suka dengan UI/UX proyek ini, jangan lupa **beri bintang (Star)** di repositori ini!
+⭐ Jika kamu merasa pameran UI/UX proyek ini menarik, jangan malu untuk **beri Bintang (Star)** di pojok atas ya!
 
 </div>
